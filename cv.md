@@ -16,15 +16,15 @@ Turkmen State University (*mathematics faculty/bachelor degree*)
 
 ## TRAINING COURSES
 
-1. [HTMLAcademy (*free part*)]
-1. [FreeCodeCamp](https://www.freecodecamp.org/Sharkunova_Svetlana)
+1. HTMLAcademy (*free part*)
+1. [FreeCodeCamp](https://www.freecodecamp.org/Sharkunova_Svetlana) (in progress)
 
 ## SKILLS
 
 * **HARDSKILLS**
     * HTML
     * CSS
-    * JS
+    * JS (basic)
 
 * **SOFTSKILLS**
     * Positive attitude
