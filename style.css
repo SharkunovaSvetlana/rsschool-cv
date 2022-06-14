@@ -23,6 +23,8 @@ html, body {
   max-width: 1440px;
   margin: 0 auto;
   border: 2px solid yellow;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 header {
   background: linear-gradient(45deg, rgb(173, 228, 173), rgb(60, 115, 60)); 
@@ -46,4 +48,54 @@ header {
 }
 .nav-link:hover {
   text-decoration: underline;
+}
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+  padding: 15px;
+  border-bottom: 5px solid rgb(60, 115, 60);
+}
+.section-profile__photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+.section-profile__img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.header__title {
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+.section-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.section h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+.section {
+  width: 50%;
+  padding: 15px;
+  border-bottom: 2px solid rgb(60, 115, 60);  
+}
+.section-list  li {
+  list-style-type: disc;
+  margin-bottom: 5px;
+}
+.section h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 20px;
 }
