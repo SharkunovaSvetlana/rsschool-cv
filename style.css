@@ -21,8 +21,7 @@ html, body {
 }
 .container {
   max-width: 1440px;
-  margin: 0 auto;
-  border: 2px solid yellow;
+  margin: 0 auto;  
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -98,4 +97,29 @@ header {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 20px;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-rrs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;  
+}
+.footer_logo {
+  width: 100px;
+  height: 100px;
+}
+.footer-githublink{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px; 
+}
+.footer-githublink a {
+  margin-bottom: 10px;
 }
